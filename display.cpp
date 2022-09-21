@@ -38,6 +38,7 @@ int main(void) {
 
 
 
+
 	while (!done) {
 		ALLEGRO_EVENT ev;
 		al_wait_for_event(event_queue, &ev);
