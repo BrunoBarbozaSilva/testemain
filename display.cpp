@@ -36,7 +36,6 @@ int main(void) {
 	al_register_event_source(event_queue, al_get_display_event_source(display));
 
 
-
 	while (!done) {
 		ALLEGRO_EVENT ev;
 		al_wait_for_event(event_queue, &ev);
